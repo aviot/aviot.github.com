@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Hello World!"
+---
+
+Hello World!
+HHHHHHHH
+
+
+{% highlight python %}
+def hw(time):
+    teturn 'hello %s' % time
+print hw('chen rong')
+{% endhighlight %}
