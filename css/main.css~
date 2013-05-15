@@ -120,6 +120,7 @@ ul.posts span {
 }
 
 .site .footer {
+  float : bottom
   font-size: 80%;
   color: #653;
   border-top: 2px solid #eee;
