@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2013年小结"
+title:  "防秃五法"
 date:   2013-12-31 21:22
 ---
 
