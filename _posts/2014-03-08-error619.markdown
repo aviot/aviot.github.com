@@ -3,18 +3,17 @@ layout: post
 title:  "vps搭建vpn碰到error619怎么办"
 date:   2014-03-08 11:07:52
 ---
-
-    买了个vps，折腾了半天连不上，看了下syslog
-
-
-- Mar 7 21:25:01 server pptpd[655]: CTRL: Starting call (launching pppd, opening GRE)
-
-- Mar 7 21:25:01 server pppd[656]: Plugin /usr/lib/pptpd/pptpd-logwtmp.so loaded.
-
-- Mar 7 21:25:01 server pppd[656]: Couldn't open the /dev/ppp device: Permission denied
-
-- Mar 7 21:25:06 server pppd[656]: Sorry - this system lacks PPP kernel support 
+买了个vps，折腾了半天连不上，看了下syslog
 
 
-    打开回报单（open ticket），联系客服enabled ppp
+    Mar 7 21:25:01 server pptpd[655]: CTRL: Starting call (launching pppd, opening GRE)
+
+    Mar 7 21:25:01 server pppd[656]: Plugin /usr/lib/pptpd/pptpd-logwtmp.so loaded.
+
+    Mar 7 21:25:01 server pppd[656]: Couldn't open the /dev/ppp device: Permission denied
+
+    Mar 7 21:25:06 server pppd[656]: Sorry - this system lacks PPP kernel support 
+
+
+打开回报单（open ticket），联系客服enabled ppp
 
