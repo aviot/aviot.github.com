@@ -5,12 +5,17 @@ date:   2014-03-08 11:07:52
 ---
 
 买了个vps，折腾了半天，连不上，看了下syslog
-<br>
+
+
 Mar 7 21:25:01 server pptpd[655]: CTRL: Starting call (launching pppd, opening GRE)
+
 Mar 7 21:25:01 server pppd[656]: Plugin /usr/lib/pptpd/pptpd-logwtmp.so loaded.
+
 Mar 7 21:25:01 server pppd[656]: Couldn't open the /dev/ppp device: Permission denied
+
 Mar 7 21:25:06 server pppd[656]: Sorry - this system lacks PPP kernel support 
-<br>
+
+
 
 google了一遍，没找到解决方法。看到人说，“open your ticket”
 
