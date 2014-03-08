@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "vps搭建vpn碰到error619怎么办"
+title:  "OpenVZ VPS搭建pptp VPN碰到Error 619怎么办"
 date:   2014-03-08 11:07:52
 ---
 买了个vps，折腾了半天连不上，看了下syslog
