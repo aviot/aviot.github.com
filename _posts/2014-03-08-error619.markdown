@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "vps搭建vpn碰到error619怎么办"
+date:   2014-03-08 11:07:52
+---
+
+买了个vps，折腾了半天，连不上，看了下syslog
+<br>
+Mar 7 21:25:01 server pptpd[655]: CTRL: Starting call (launching pppd, opening GRE)
+Mar 7 21:25:01 server pppd[656]: Plugin /usr/lib/pptpd/pptpd-logwtmp.so loaded.
+Mar 7 21:25:01 server pppd[656]: Couldn't open the /dev/ppp device: Permission denied
+Mar 7 21:25:06 server pppd[656]: Sorry - this system lacks PPP kernel support 
+<br>
+
+google了一遍，没找到解决方法。看到人说，“open your ticket”
+
+就打开了回报单，联系了客服，5分钟后回复，“ppp enabled”
+
+主页明明写着TUN/TAP/PPP/FUSE enabled，support里写着setting里有ppp enble选项却没有
